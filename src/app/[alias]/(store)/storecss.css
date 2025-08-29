@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(250 250 250/1)
+}
+nav button:focus-visible, 
+nav div:focus-visible{
+    
+	outline: none; 	
+}
+
+footer{
+    background-color: #111827;
+}

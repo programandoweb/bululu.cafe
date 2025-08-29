@@ -1,0 +1,55 @@
+{
+    "name": "Ivoolve Soft Demo By Programandoweb",
+    "short_name": "Ivoolve",
+    "theme_color": "#00ff00",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/img/pwa/icon-128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/img/pwa/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/pwa/icon-384x384.png",
+        "type": "image/png",
+        "sizes": "384x384"
+      },
+      {
+        "src": "/img/pwa/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/img/pwa/screenshot1.png",
+        "type": "image/png",
+        "sizes": "428x926"
+      },
+      {
+        "src": "/img/pwa/screenshot2.png",
+        "type": "image/png",
+        "sizes": "428x926"
+      },
+      {
+        "src": "/img/pwa/screenshot3.png",
+        "type": "image/png",
+        "sizes": "428x926"
+      },
+      {
+        "src": "/img/pwa/screenshot3.png",
+        "type": "image/png",
+        "sizes": "428x926"
+      }
+    ]
+  }
+  
