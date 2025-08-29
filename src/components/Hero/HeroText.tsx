@@ -1,20 +1,20 @@
 'use client'
 
-import { FaBeer } from 'react-icons/fa'
-import { FiCoffee, FiMusic } from 'react-icons/fi'
+import { FaCocktail, FaMugHot } from 'react-icons/fa'
+import { FiCoffee } from 'react-icons/fi'
 import MotionFadeUp from './MotionFadeUp'
 
 export default function HeroText() {
   return (
     <MotionFadeUp>
       <p className="uppercase tracking-[0.28em] text-xs text-fuchsia-300/80 mb-3">
-        Café • Coctelería • Buen parche
+        Café • Tragos • Bebidas frías y calientes
       </p>
       <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
         El spot para <span className="text-fuchsia-300">brindar, reír</span> y quedarte.
       </h1>
       <p className="mt-4 text-white/80 md:text-lg max-w-xl">
-        Cerveza helada, micheladas y cocteles de autor — todo en un ambiente cálido y con buena música.
+        Tragos, cocteles, cervezas heladas, cafés y bebidas frías o calientes — todo en un ambiente cálido y con buena música.
       </p>
 
       {/* Botones */}
@@ -36,13 +36,13 @@ export default function HeroText() {
       {/* Badges */}
       <div className="mt-8 flex flex-wrap gap-3 text-xs">
         <span className="rounded-full bg-white/10 border border-white/20 px-3 py-1 inline-flex items-center gap-2">
-          <FaBeer /> Cervezas frías
+          <FaCocktail /> Tragos & Cocteles
         </span>
         <span className="rounded-full bg-white/10 border border-white/20 px-3 py-1 inline-flex items-center gap-2">
-          <FiCoffee /> Café y brunch
+          <FiCoffee /> Bebidas frías
         </span>
         <span className="rounded-full bg-white/10 border border-white/20 px-3 py-1 inline-flex items-center gap-2">
-          <FiMusic /> Música en vivo
+          <FaMugHot /> Bebidas calientes
         </span>
       </div>
     </MotionFadeUp>
