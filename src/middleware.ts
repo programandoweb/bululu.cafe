@@ -17,7 +17,7 @@ export function middleware(request: NextRequest) {
     // Verifica si el usuario está en la raíz del dominio
     if (pathname === '/') {
         // Redirige a /valencia/tienda
-        return NextResponse.redirect(new URL('/bululu-cafe-bar-dosquebradas-que-hacer-en-dosquebras-pereira/tienda', request.url));
+        return NextResponse.redirect(new URL('/bululu-cafe-bar-dosquebradas-que-hacer-en-dosquebras-pereira/cafe-bar', request.url));
     }
 
     // Permite el acceso a otras rutas

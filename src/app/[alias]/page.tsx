@@ -1,5 +1,5 @@
 import React from "react";
-import Tienda from "./(store)/tienda/page";
+import Tienda from "./(store)/cafe-bar/page";
 const TiendaPage=()=>{
     return  <Tienda/>
 }

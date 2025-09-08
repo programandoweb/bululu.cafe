@@ -20,7 +20,8 @@ export default function HeroText() {
       {/* Botones */}
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <a
-          href="#menu"
+          target='_blank'
+          href="https://maps.app.goo.gl/T4ntgLKZxthweqL99"
           className="rounded-full bg-fuchsia-500 px-6 py-3 font-semibold hover:bg-fuchsia-400 transition"
         >
           Ver menú
