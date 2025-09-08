@@ -1,5 +1,5 @@
 import React from "react";
-import Shoppingcart from "../(store)/tienda/shoppingcart/page";
+import Shoppingcart from "../(store)/cafe-bar/shoppingcart/page";
 import Back from "@/components/back";
 
 const ShoppingCartPage=(props:any)=>{
