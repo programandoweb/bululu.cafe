@@ -7,14 +7,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title         =   process.env.NEXT_PUBLIC_TITLE;
 const description   =   process.env.NEXT_PUBLIC_DESCRIPTION;
-const image         =   "https://jorgedev.pro/img/profile.jpg";
-const url           =   "https://jorgedev.pro";  // Cambia esto por la URL de tu sitio
+const image         =   "https://www.bululu.cafe/img/desing/partido-colombia-venezuela/esvdm3vfdk72t9vpnhr5abpxw1757201432.jpg.webp";
+const url           =   "https://www.bululu.cafe";  // Cambia esto por la URL de tu sitio
 const fbAppId       =   process.env.NEXT_PUBLIC_FB_APP_ID || ""; 
 
 export const metadata: Metadata = {
   
   title: process.env.NEXT_PUBLIC_NAME+' '+process.env.NEXT_PUBLIC_NAME2,
-  description: process.env.NEXT_PUBLIC_NAME,
+  description: description,
   applicationName: process.env.NEXT_PUBLIC_NAME+' '+process.env.NEXT_PUBLIC_NAME2,
   keywords: ["react", "server components", 'nextjs', 'tailwind', 'admin', 'dashboard'],
   
