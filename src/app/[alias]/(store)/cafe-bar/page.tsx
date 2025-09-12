@@ -1,9 +1,9 @@
 import { FC } from 'react';
-import LandingPartidoColombiaVenezuela from '@/components/eventos/Colombia-Venezuela-09-09-2025';
+import LandingAmorAmistad from '@/components/eventos/Amor-y-Amistad';
 
 type Props = {};
 const MainPage: FC<Props> = () => {
-    return  <LandingPartidoColombiaVenezuela/>
+    return  <LandingAmorAmistad/>
 }
 
 export default MainPage;
