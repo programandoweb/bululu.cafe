@@ -11,7 +11,7 @@ export default function LandingAmorAmistad() {
         className="
           relative h-screen flex items-center justify-center bg-center bg-no-repeat bg-cover
           bg-[url('/img/love/hero-mobile.png')]
-          md:bg-[url('/img/love/hero-desktop.png')]
+          md:bg-[url('/img/love/dia-amor-amistad-bululu.jpg')]
         "
       >
         <div className="absolute inset-0 bg-gradient-to-b from-pink-700/70 to-red-900/70" />
