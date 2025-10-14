@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title         =   process.env.NEXT_PUBLIC_TITLE;
 const description   =   process.env.NEXT_PUBLIC_DESCRIPTION;
-const image         =   "https://www.bululu.cafe/img/love/dia-amor-amistad-bululu.jpg";
+const image         =   "https://www.bululu.cafe/img/bululu/portada.jpg";
 const url           =   "https://www.bululu.cafe";  // Cambia esto por la URL de tu sitio
 const fbAppId       =   process.env.NEXT_PUBLIC_FB_APP_ID || ""; 
 
