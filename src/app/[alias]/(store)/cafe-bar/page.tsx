@@ -1,9 +1,9 @@
 import { FC } from 'react';
-import LandingAmorAmistad from '@/components/eventos/Amor-y-Amistad';
+import BululuLanding from './CSRPage';
 
 type Props = {};
 const MainPage: FC<Props> = () => {
-    return  <LandingAmorAmistad/>
+    return  <BululuLanding/>
 }
 
 export default MainPage;
